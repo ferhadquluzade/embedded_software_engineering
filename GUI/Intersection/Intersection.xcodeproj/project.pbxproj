@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CA7A782296DCE9C00C668D7 /* IntersectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA7A781296DCE9C00C668D7 /* IntersectionApp.swift */; };
+		4CA7A784296DCE9C00C668D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA7A783296DCE9C00C668D7 /* ContentView.swift */; };
+		4CA7A786296DCE9C00C668D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA7A785296DCE9C00C668D7 /* Assets.xcassets */; };
+		4CA7A789296DCE9C00C668D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA7A788296DCE9C00C668D7 /* Preview Assets.xcassets */; };
+		4CA7A78B296DCE9C00C668D7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA7A78A296DCE9C00C668D7 /* Persistence.swift */; };
+		4CA7A78E296DCE9C00C668D7 /* Intersection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CA7A78C296DCE9C00C668D7 /* Intersection.xcdatamodeld */; };
+		4CA7A798296DED8600C668D7 /* Road.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA7A797296DED8600C668D7 /* Road.swift */; };
+		4CA7A79A296DF65A00C668D7 /* EstimatePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA7A799296DF65A00C668D7 /* EstimatePriority.swift */; };
+		4CFF8EBC2970511900CDF29A /* RoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF8EBB2970511900CDF29A /* RoadView.swift */; };
+		4CFF8EC42970A6BC00CDF29A /* IntersectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF8EC32970A6BC00CDF29A /* IntersectionTests.swift */; };
+		4CFF8ECA2970A79C00CDF29A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA7A783296DCE9C00C668D7 /* ContentView.swift */; };
+		4CFF8ECB2970B4D200CDF29A /* Road.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA7A797296DED8600C668D7 /* Road.swift */; };
+		4CFF8ECC2970BFDC00CDF29A /* EstimatePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA7A799296DF65A00C668D7 /* EstimatePriority.swift */; };
+		4CFF8ECE2970C01200CDF29A /* RoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF8EBB2970511900CDF29A /* RoadView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CFF8EC52970A6BC00CDF29A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA7A776296DCE9B00C668D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA7A77D296DCE9C00C668D7;
+			remoteInfo = Intersection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CA7A77E296DCE9C00C668D7 /* Intersection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intersection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA7A781296DCE9C00C668D7 /* IntersectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionApp.swift; sourceTree = "<group>"; };
+		4CA7A783296DCE9C00C668D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4CA7A785296DCE9C00C668D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CA7A788296DCE9C00C668D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4CA7A78A296DCE9C00C668D7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4CA7A78D296DCE9C00C668D7 /* Intersection.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Intersection.xcdatamodel; sourceTree = "<group>"; };
+		4CA7A78F296DCE9C00C668D7 /* Intersection.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Intersection.entitlements; sourceTree = "<group>"; };
+		4CA7A797296DED8600C668D7 /* Road.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Road.swift; sourceTree = "<group>"; };
+		4CA7A799296DF65A00C668D7 /* EstimatePriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimatePriority.swift; sourceTree = "<group>"; };
+		4CFF8EBB2970511900CDF29A /* RoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadView.swift; sourceTree = "<group>"; };
+		4CFF8EC12970A6BC00CDF29A /* IntersectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntersectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CFF8EC32970A6BC00CDF29A /* IntersectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CA7A77B296DCE9C00C668D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CFF8EBE2970A6BC00CDF29A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CA7A775296DCE9B00C668D7 = {
+			isa = PBXGroup;
+			children = (
+				4CA7A780296DCE9C00C668D7 /* Intersection */,
+				4CFF8EC22970A6BC00CDF29A /* IntersectionTests */,
+				4CA7A77F296DCE9C00C668D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CA7A77F296DCE9C00C668D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CA7A77E296DCE9C00C668D7 /* Intersection.app */,
+				4CFF8EC12970A6BC00CDF29A /* IntersectionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CA7A780296DCE9C00C668D7 /* Intersection */ = {
+			isa = PBXGroup;
+			children = (
+				4CA7A781296DCE9C00C668D7 /* IntersectionApp.swift */,
+				4CA7A783296DCE9C00C668D7 /* ContentView.swift */,
+				4CA7A799296DF65A00C668D7 /* EstimatePriority.swift */,
+				4CA7A797296DED8600C668D7 /* Road.swift */,
+				4CFF8EBB2970511900CDF29A /* RoadView.swift */,
+				4CA7A785296DCE9C00C668D7 /* Assets.xcassets */,
+				4CA7A78A296DCE9C00C668D7 /* Persistence.swift */,
+				4CA7A78F296DCE9C00C668D7 /* Intersection.entitlements */,
+				4CA7A78C296DCE9C00C668D7 /* Intersection.xcdatamodeld */,
+				4CA7A787296DCE9C00C668D7 /* Preview Content */,
+			);
+			path = Intersection;
+			sourceTree = "<group>";
+		};
+		4CA7A787296DCE9C00C668D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4CA7A788296DCE9C00C668D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4CFF8EC22970A6BC00CDF29A /* IntersectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CFF8EC32970A6BC00CDF29A /* IntersectionTests.swift */,
+			);
+			path = IntersectionTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CA7A77D296DCE9C00C668D7 /* Intersection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA7A792296DCE9C00C668D7 /* Build configuration list for PBXNativeTarget "Intersection" */;
+			buildPhases = (
+				4CA7A77A296DCE9C00C668D7 /* Sources */,
+				4CA7A77B296DCE9C00C668D7 /* Frameworks */,
+				4CA7A77C296DCE9C00C668D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Intersection;
+			productName = Intersection;
+			productReference = 4CA7A77E296DCE9C00C668D7 /* Intersection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CFF8EC02970A6BC00CDF29A /* IntersectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CFF8EC72970A6BC00CDF29A /* Build configuration list for PBXNativeTarget "IntersectionTests" */;
+			buildPhases = (
+				4CFF8EBD2970A6BC00CDF29A /* Sources */,
+				4CFF8EBE2970A6BC00CDF29A /* Frameworks */,
+				4CFF8EBF2970A6BC00CDF29A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CFF8EC62970A6BC00CDF29A /* PBXTargetDependency */,
+			);
+			name = IntersectionTests;
+			productName = IntersectionTests;
+			productReference = 4CFF8EC12970A6BC00CDF29A /* IntersectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CA7A776296DCE9B00C668D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4CA7A77D296DCE9C00C668D7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4CFF8EC02970A6BC00CDF29A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4CA7A77D296DCE9C00C668D7;
+					};
+				};
+			};
+			buildConfigurationList = 4CA7A779296DCE9B00C668D7 /* Build configuration list for PBXProject "Intersection" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CA7A775296DCE9B00C668D7;
+			productRefGroup = 4CA7A77F296DCE9C00C668D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CA7A77D296DCE9C00C668D7 /* Intersection */,
+				4CFF8EC02970A6BC00CDF29A /* IntersectionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CA7A77C296DCE9C00C668D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA7A789296DCE9C00C668D7 /* Preview Assets.xcassets in Resources */,
+				4CA7A786296DCE9C00C668D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CFF8EBF2970A6BC00CDF29A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CA7A77A296DCE9C00C668D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA7A798296DED8600C668D7 /* Road.swift in Sources */,
+				4CFF8EBC2970511900CDF29A /* RoadView.swift in Sources */,
+				4CA7A79A296DF65A00C668D7 /* EstimatePriority.swift in Sources */,
+				4CA7A78E296DCE9C00C668D7 /* Intersection.xcdatamodeld in Sources */,
+				4CA7A78B296DCE9C00C668D7 /* Persistence.swift in Sources */,
+				4CA7A784296DCE9C00C668D7 /* ContentView.swift in Sources */,
+				4CA7A782296DCE9C00C668D7 /* IntersectionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CFF8EBD2970A6BC00CDF29A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFF8ECB2970B4D200CDF29A /* Road.swift in Sources */,
+				4CFF8ECA2970A79C00CDF29A /* ContentView.swift in Sources */,
+				4CFF8EC42970A6BC00CDF29A /* IntersectionTests.swift in Sources */,
+				4CFF8ECC2970BFDC00CDF29A /* EstimatePriority.swift in Sources */,
+				4CFF8ECE2970C01200CDF29A /* RoadView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CFF8EC62970A6BC00CDF29A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CA7A77D296DCE9C00C668D7 /* Intersection */;
+			targetProxy = 4CFF8EC52970A6BC00CDF29A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CA7A790296DCE9C00C668D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CA7A791296DCE9C00C668D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4CA7A793296DCE9C00C668D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Intersection/Intersection.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Intersection/Preview Content\"";
+				DEVELOPMENT_TEAM = 5548YMMUN7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaur.Intersection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4CA7A794296DCE9C00C668D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Intersection/Intersection.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Intersection/Preview Content\"";
+				DEVELOPMENT_TEAM = 5548YMMUN7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaur.Intersection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4CFF8EC82970A6BC00CDF29A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5548YMMUN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaur.IntersectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intersection.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Intersection";
+			};
+			name = Debug;
+		};
+		4CFF8EC92970A6BC00CDF29A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5548YMMUN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaur.IntersectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intersection.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Intersection";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CA7A779296DCE9B00C668D7 /* Build configuration list for PBXProject "Intersection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA7A790296DCE9C00C668D7 /* Debug */,
+				4CA7A791296DCE9C00C668D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA7A792296DCE9C00C668D7 /* Build configuration list for PBXNativeTarget "Intersection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA7A793296DCE9C00C668D7 /* Debug */,
+				4CA7A794296DCE9C00C668D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CFF8EC72970A6BC00CDF29A /* Build configuration list for PBXNativeTarget "IntersectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CFF8EC82970A6BC00CDF29A /* Debug */,
+				4CFF8EC92970A6BC00CDF29A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4CA7A78C296DCE9C00C668D7 /* Intersection.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4CA7A78D296DCE9C00C668D7 /* Intersection.xcdatamodel */,
+			);
+			currentVersion = 4CA7A78D296DCE9C00C668D7 /* Intersection.xcdatamodel */;
+			path = Intersection.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4CA7A776296DCE9B00C668D7 /* Project object */;
+}
