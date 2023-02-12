@@ -213,17 +213,12 @@ void loop(){
               intersection[3] = new Road(0,0,0,"");
 
            	}
-            //Serial.println("slmslmslmslsmslsml");
 
           }
 
         }
 
-      //for (int i = 0; i < 4; i++){
-      //Serial.println("slmslmslmslsmslsmls");
-       //Serial.write(intersection[i]->numberOfCars);
-
-      //}
+     
       	int tempCount = countRoads(temp);
 		checkParallelism(temp,tempCount);
       Serial.println(":::::::finished");
@@ -249,9 +244,7 @@ void loop(){
  // Serial.print(ended/1000+":"+(ended%1000/100));
   Serial.print(timeInterval);
   
-/*  Serial.println("execution time:::");
- // Serial.write(ended-started);
-    */
+
 }
 
 int serialRead(String label){
